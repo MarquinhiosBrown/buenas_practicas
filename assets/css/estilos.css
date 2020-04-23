@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700,700i&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    color:#fff;/* color: #739c2d; */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #38353f;
+}
+
+h2 {
+    color: #38353f;
+    border-bottom: 1px solid #739c2d;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.fondo01 h4 {
+    color:#00a0de;
+}
+
+.fondo02 h4 {
+    color:#739c2d;
+}
+
+
+strong {
+    color:#507909;
+}
+
+li {
+    line-height: 2rem;
+}
+
+footer {
+    background-color: #739c2d;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
+
+.textos__titulos{
+    margin-top: 200px;
+}
+
+.bg-menu_principal {
+    background-color: #38353f;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.fondo__jumbo{
+    background-image: url('../img/hero-img-ok.png');
+    background-size: cover;
+    height: 75vh;
+}
+.fondo01 {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.fondo02 {
+    background-color: #e9ecef;
+    padding: 100px 0;
+}
+.iconos__col {
+    width: 40%;
+}
+
+.card__none{
+    background-color: rgba(255,255,255,0) !important;
+}
+
+.btn__funciones {
+    background-color: #ee4e2b;
+    border-color: #ee4e2b;
+}
+.btn__funciones:hover {
+    background-color: #632412;
+    border-color: #632412;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (max-width: 575.98px) {
+    h1 {
+        color: #fff; /* color: #739c2d; */
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 3px #38353f;
+    }
+
+    .fondo__jumbo{
+        background-image: url('../img/hero-img-cel-ok.png');
+        background-size: cover;
+        height: 85vh;
+        padding: 0 10px;
+    }
+
+    .textos__titulos{
+        margin-top: 380px;
+    }
+
+    .textos__titulos p{
+        text-shadow: 1px 1px 2px #fff;
+    }
+
+ }
